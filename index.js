@@ -7,7 +7,7 @@ const alumniRoutes = require('./routes/alumniRoutes');
 const eventRoutes = require('./routes/eventRoutes');
 
 const app = express();
-const uri = "mongodb+srv://skelo@admin:skelo@cluster0.gfmhra3.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://sam:abc@cluster0.gfmhra3.mongodb.net/?retryWrites=true&w=majority";
 
 // Connect to MongoDB
 mongoose.connect(uri, {
